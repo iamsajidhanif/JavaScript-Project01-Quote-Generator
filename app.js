@@ -30,7 +30,7 @@ function getRandomQuotationsReady() {
 
     var randomQuote = document.getElementById('randomQuote');
 
-    var rand = Math.floor(Math.random() * 10);
+    var rand = Math.floor(Math.random() * 19);
     console.log(rand);
 
     randomQuote.textContent = '"' + randomQuotesArray[rand] + '"';
